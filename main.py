@@ -112,7 +112,6 @@ def run():
 
         screen.blit(player, (player_x, player_y))
         for val in scd_players.values():
-            print((int(val[0]), int(val[1])))
             screen.blit(scd_player, (int(val[0]), int(val[1])))
         scd_players.clear()
         pygame.display.update()
